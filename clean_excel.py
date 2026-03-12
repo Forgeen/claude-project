@@ -115,7 +115,7 @@ def main():
     # Get the folder where THIS script is saved
     base_path = Path(__file__).parent
     # Join that folder with your filename
-    INPUT_FILE = str(base_path / "Sample_Life_Day_2_Comparison_data_20261103.xlsx")
+    INPUT_FILE = str(base_path / "Sample_Comparison_data_20261103.xlsx")
 
     print("=" * 60)
     print("🧹 Excel Data Cleansing")

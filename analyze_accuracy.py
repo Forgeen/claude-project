@@ -167,7 +167,7 @@ def main():
     """Main function to run the accuracy analysis"""
 
     # Configuration - Use latest cleansed file
-    INPUT_FILE = "Sample_Life_Day_2_Comparison_data_20261103_cleansed_20260311_165145.xlsx"
+    INPUT_FILE = "Sample_Comparison_data_20261103_cleansed_20260311_165145.xlsx"
 
     print("=" * 60)
     print("📊 Field Accuracy Analysis (Considering is_edited)")
