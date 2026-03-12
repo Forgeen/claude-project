@@ -55,9 +55,9 @@ def cleanse_excel_file(input_file: str, output_file: str = None) -> pd.DataFrame
         if pd.isna(img_path):
             return 'Unknown'
         img_str = str(img_path)
-        if 'CLMHK1MEDIC1' in img_str or 'CLMHK1HOSCLM' in img_str:
+        if 'C*****' in img_str or 'C*****' in img_str:
             return 'Claim Form I'
-        elif 'CLMHK1MEDIC2' in img_str:
+        elif 'C******' in img_str:
             return 'Claim Form II'
         else:
             return 'Unknown'
